@@ -1,4 +1,6 @@
-# A program that extracts pricedata from aux addon's savedvariables file and saves them into a xlsx file for calculating profits from farming primal life
+# A program for tracking Wow Auction House price data 
+
+# The program extracts pricedata from aux addon's savedvariables file and saves them into a xlsx file for calculating profits from farming primal life
 # The program first finds the trackable items from your xlsx file, then exctracts their id:s from wow_items.json and then finds the prices from aux-addon.lua file in your wtf folder
 # Finally, the program writes the information if there are dates written on row 2 but no price data in rows 28-38
 # An example xlsx file "Bog.xslx" is included. 
